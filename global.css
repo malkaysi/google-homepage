@@ -1,0 +1,81 @@
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+  }
+
+  #dform {
+    text-align: center;
+  }
+
+  input[type=text]{
+      height: 30px;
+      width: 450px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      border-radius: 16px;
+      border-style: solid;
+      border-color: rgb(204, 204, 204);
+  }
+
+  input[type=text]:hover, input[type=text]:focus{
+    border: 3px solid rgb(204, 204, 204);
+    box-shadow:5px 10px 18px #888888;
+    outline: none;
+  }
+
+  input[type=submit]{
+      outline: none;
+      padding: 10px 25px 10px 25px;
+      border: none;
+      margin-right: 175px;
+      background-color: #c9c9c92c;
+  }
+
+  input[type=submit]:hover{
+      cursor: pointer;
+      background-color: lightgray;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    line-height: 0.1px;
+  }
+
+  li{
+    float: left;
+  }
+
+  li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+    margin-top: 5px;
+  }
+
+  li a:hover{
+    text-decoration: underline;
+  }
+
+  li button{
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: rgb(14, 115, 247);
+    padding: 7px 25px;
+    border-color: rgb(14, 115, 247);
+    border-radius: 5%;
+    box-shadow: none;
+    margin-right: 5px;
+    line-height: 1.5;
+  }
